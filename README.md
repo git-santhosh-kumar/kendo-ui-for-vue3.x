@@ -30,5 +30,15 @@ git config user.name git-santhosh-kumar
 git config user.email santhoshr.connect@gmail.com
 ```
 
-## Install third party modules
+## Add Kendo UI for Vue components
+
+```sh
+npm install --save @progress/kendo-vue-grid @progress/kendo-data-query @progress/kendo-vue-inputs @progress/kendo-vue-intl @progress/kendo-vue-dropdowns @progress/kendo-vue-dateinputs @progress/kendo-drawing @progress/kendo-vue-dialogs @progress/kendo-vue-data-tools @progress/kendo-vue-animation @progress/kendo-licensing @progress/kendo-svg-icons @progress/kendo-vue-indicators
+```
+
+Install the default theme for css styles
+```sh
+npm install --save @progress/kendo-theme-default
+```
+
 
