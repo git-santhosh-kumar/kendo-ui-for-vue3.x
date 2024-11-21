@@ -1,12 +1,14 @@
 <template>
   <h1>Kendo Data Grid</h1>
-  {{  products }}
+  <kendo-grid
+    ref="grid"
+    :data-items="products"
+  ></kendo-grid>
 </template>
 
 <script setup lang="ts">
 import {ref, onMounted} from 'vue'
-import { process } from '@progress/kendo-data-query';
-import { Grid } from '@progress/kendo-vue-grid';
+// import { process } from '@progress/kendo-data-query';
 
     const products = ref([]);
     const columns = ref([
@@ -21,7 +23,6 @@ import { Grid } from '@progress/kendo-vue-grid';
         const productsList = fetch('https://fakestoreapi.com/products')
             .then(res => res.json())
             .then(json => products.value = json);     
-
     })
 
 </script>

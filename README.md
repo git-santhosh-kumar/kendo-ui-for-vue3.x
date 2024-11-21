@@ -41,4 +41,7 @@ Install the default theme for css styles
 npm install --save @progress/kendo-theme-default
 ```
 
-
+Install Vue Router
+```sh
+npm install vue-router@4 --save
+```
