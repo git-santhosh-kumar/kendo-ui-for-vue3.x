@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+// import SecondApp from './SecondApp.vue'
 
 import '@progress/kendo-theme-default/dist/all.css';
 import './style.css'
@@ -11,6 +12,8 @@ import router from './router';
 
 const app = createApp(App);
 
+// const secondApp = createApp(SecondApp);
+
 // Register Kendo components globally
 app.component('kendo-grid', Grid);
 app.component('kendo-button', Button);
@@ -19,3 +22,6 @@ app.use(router); // Add router to app
 
 // Mount the app component.
 app.mount('#app');
+
+// We can mount multiple apps under same project.
+// secondApp.mount("#second-app")
