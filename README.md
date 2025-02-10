@@ -41,7 +41,15 @@ Install the default theme for css styles
 npm install --save @progress/kendo-theme-default
 ```
 
-Install Vue Router
+### Install Vue Router
+
 ```sh
 npm install vue-router@4 --save
 ```
+
+### Setup `Posthog` analytics
+
+- [PostHog with Vue.js](https://posthog.com/docs/libraries/vue-js)
+- Integrating PostHog into your app enables analytics about user behavior, custom events capture, session replays, feature flags, and more.
+
+- Install `posthog.js` by using follwing package manager - `npm install --save posthog-js`

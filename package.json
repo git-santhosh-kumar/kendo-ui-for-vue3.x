@@ -32,6 +32,7 @@
     "@progress/kendo-vue-layout": "^6.0.0",
     "@progress/kendo-vue-treeview": "^6.0.0",
     "axios": "^1.7.9",
+    "posthog-js": "^1.215.6",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
